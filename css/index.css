@@ -1392,7 +1392,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: img/网页背景.webp;
+  background: #efefef;
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -3155,6 +3155,13 @@ h1.page-title + .tag-cloud-list {
   background-attachment: scroll;
   background-position: bottom;
   background-size: cover;
+}
+#footer:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  content: '';
 }
 #footer-wrap {
   position: relative;
